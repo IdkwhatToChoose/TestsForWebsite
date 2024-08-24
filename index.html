@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">Codeeer</span>
+
+
+    </div>
+    <button class="menuButton" id="menuButton" onclick="openSidebarMenu()">
+      <i class="bx bxs-chevron-left" id="leftArrowIcon"></i>
+      <i class="bx bxs-chevron-right" id="rightArrowIcon"></i>
+    </button>
+    <ul class="nav-links" id="sidebarNav">
+      <li>
+        <a href="troll.html" onclick="toggleLeftMenuLi('dashboardMenu','dashboardArrowIcon')">
+          <i class="bx bx-grid-alt menuIcons"></i>
+          <span class="link_name">Dashboard</span>
+
+          <i class="bx bxs-chevron-down" id="dashboardArrowIcon"></i>
+        </a>
+        <ul class="nav-links2" id="dashboardMenu">
+          <li>
+            <a href="#" class="insideMenuA">
+             
+              <span class="link_name">Dashboard</span> 
+
+            </a>
+            
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class="bx bx-collection"></i>
+              <span class="link_name"> Category</span>
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class='bx bx-link'></i>
+              <span class="link_name">Link</span>
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class='bx bxs-calendar'></i>
+              <span class="link_name"> Calender</span>
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class='bx bx-question-mark'></i>
+              <span class="link_name"> Help</span>
+
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+
+          </li>
+        </ul>
+
+      </li>
+      <li>
+        <a href="#" onclick="toggleLeftMenuLi('categoryMenu','categoryArrowIcon')">
+          <i class="bx bx-collection menuIcons"></i>
+          <span class="link_name"> Category</span>
+          <i class="bx bxs-chevron-down" id="categoryArrowIcon"></i>
+        </a>
+        <ul class="nav-links2" id="categoryMenu">
+          <li>
+            <a href="#" class="insideMenuA">
+             
+              <span class="link_name">Dashboard</span> 
+
+            </a>
+            
+            <ul class=" insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class="bx bx-collection"></i>
+              <span class="link_name"> Category</span>
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class='bx bx-link'></i>
+              <span class="link_name">Link</span>
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class='bx bxs-calendar'></i>
+              <span class="link_name"> Calender</span>
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class='bx bx-question-mark'></i>
+              <span class="link_name"> Help</span>
+
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+
+          </li>
+        </ul>
+        
+      </li>
+      <li>
+        <a href="#" onclick="toggleLeftMenuLi('linkMenu','linkArrowIcon')">
+          <i class='bx bx-link menuIcons'></i>
+          <span class="link_name"> Link</span>
+          <i class="bx bxs-chevron-down" id="linkArrowIcon"></i>
+        </a>
+        <ul class="nav-links2" id="linkMenu">
+          <li>
+            <a href="#" class="insideMenuA">
+             
+              <span class="link_name">Dashboard</span> 
+
+            </a>
+            
+            <ul class="nav-links insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class="bx bx-collection"></i>
+              <span class="link_name"> Category</span>
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class='bx bx-link'></i>
+              <span class="link_name">Link</span>
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#" class="insideMenuA">
+              <i class='bx bxs-calendar'></i>
+              <span class="link_name"> Calender</span>
+            </a>
+            <ul class="insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-question-mark'></i>
+              <span class="link_name"> Help</span>
+
+            </a>
+            <i class="bx bxs-chevron-down"></i>
+
+          </li>
+        </ul>
+       
+      </li>
+      <li>
+        <a href="#" onclick="toggleLeftMenuLi('calenderMenu','calenderArrowIcon')">
+          <i class='bx bxs-calendar menuIcons'></i>
+          <span class="link_name"> Calender</span>
+          <i class="bx bxs-chevron-down" id="calenderArrowIcon"></i>
+        </a>
+        <ul class="nav-links2" id="calenderMenu">
+          <li>
+            <a href="#" class="insideMenuA">
+             
+              <span class="link_name">Dashboard</span> 
+
+            </a>
+            
+            <ul class="nav-links insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bx-collection"></i>
+              <span class="link_name"> Category</span>
+            </a>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-link'></i>
+              <span class="link_name">Link</span>
+            </a>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bxs-calendar'></i>
+              <span class="link_name"> Calender</span>
+            </a>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-question-mark'></i>
+              <span class="link_name"> Help</span>
+
+            </a>
+            <i class="bx bxs-chevron-down"></i>
+
+          </li>
+        </ul>
+        
+      </li>
+      <li>
+        <a href="#" onclick="toggleLeftMenuLi('helpMenu','helpArrowIcon')">
+          <i class='bx bx-question-mark menuIcons'></i>
+          <span class="link_name"> Help</span>
+          <i class="bx bxs-chevron-down" id="helpArrowIcon"></i>
+        </a>
+     
+        <ul class="nav-links2" id="helpMenu">
+          <li>
+            <a href="#" class="insideMenuA">
+             
+              <span class="link_name">Dashboard</span> 
+
+            </a>
+            
+            <ul class="nav-links insideDashboardMenu" id="insideDashboardMenu">
+              <li>
+                <a href="#">
+                  <span class="link_name">Dashboard</span>
+
+                </a>
+               
+
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span class="link_name"> Category</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name">Link</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Calender</span>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#">
+                 
+                  <span class="link_name"> Help</span>
+
+                </a>
+                
+
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bx bx-collection"></i>
+              <span class="link_name"> Category</span>
+            </a>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-link'></i>
+              <span class="link_name">Link</span>
+            </a>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bxs-calendar'></i>
+              <span class="link_name"> Calender</span>
+            </a>
+            <i class="bx bxs-chevron-down"></i>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-question-mark'></i>
+              <span class="link_name"> Help</span>
+
+            </a>
+            <i class="bx bxs-chevron-down"></i>
+
+          </li>
+        </ul>
+
+      </li>
+    </ul>
+   
+</head>
+<body>
+ 
+ 
+  <script src="index.js"> </script>
+</body>
+
+</html>
