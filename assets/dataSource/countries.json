@@ -1,0 +1,924 @@
+[
+  {
+    "name": "Bulgaria",
+    "shortName": "BG",
+    "isEU": true,
+    "population": 7000002,
+    "roseOilInLitres": 7.21773,
+    "averageIntellect": 138.1024
+  },
+  {
+    "name": "Germany",
+    "shortName": "DE",
+    "isEU": true,
+    "population": 83166711,
+    "roseOilInLitres": 0.021,
+    "averageIntellect": 108.214
+  },
+  {
+    "name": "France",
+    "shortName": "FR",
+    "isEU": true,
+    "population": 65273511,
+    "roseOilInLitres": 0.017,
+    "averageIntellect": 105.984
+  },
+  {
+    "name": "United States",
+    "shortName": "US",
+    "isEU": false,
+    "population": 331002651,
+    "roseOilInLitres": 0.005,
+    "averageIntellect": 98.287
+  },
+  {
+    "name": "Japan",
+    "shortName": "JP",
+    "isEU": false,
+    "population": 126476461,
+    "roseOilInLitres": 0.002,
+    "averageIntellect": 112.112
+  },
+  {
+    "name": "Italy",
+    "shortName": "IT",
+    "isEU": true,
+    "population": 60461826,
+    "roseOilInLitres": 0.015,
+    "averageIntellect": 103.541
+  },
+  {
+    "name": "Canada",
+    "shortName": "CA",
+    "isEU": false,
+    "population": 37742154,
+    "roseOilInLitres": 0.006,
+    "averageIntellect": 102.487
+  },
+  {
+    "name": "Australia",
+    "shortName": "AU",
+    "isEU": false,
+    "population": 25499884,
+    "roseOilInLitres": 0.003,
+    "averageIntellect": 101.654
+  },
+  {
+    "name": "Spain",
+    "shortName": "ES",
+    "isEU": true,
+    "population": 46754778,
+    "roseOilInLitres": 0.013,
+    "averageIntellect": 102.789
+  },
+  {
+    "name": "Netherlands",
+    "shortName": "NL",
+    "isEU": true,
+    "population": 17134872,
+    "roseOilInLitres": 0.001,
+    "averageIntellect": 104.213
+  },
+  {
+    "name": "Afghanistan",
+    "shortName": "AF",
+    "isEU": false,
+    "population": 38928346,
+    "roseOilInLitres": 0,
+    "averageIntellect": 71.5
+  },
+  {
+    "name": "Albania",
+    "shortName": "AL",
+    "isEU": false,
+    "population": 2877797,
+    "roseOilInLitres": 0,
+    "averageIntellect": 88.5
+  },
+  {
+    "name": "Algeria",
+    "shortName": "DZ",
+    "isEU": false,
+    "population": 43851044,
+    "roseOilInLitres": 0,
+    "averageIntellect": 81.5
+  },
+  {
+    "name": "Andorra",
+    "shortName": "AD",
+    "isEU": false,
+    "population": 77265,
+    "roseOilInLitres": 0,
+    "averageIntellect": 100.5
+  },
+  {
+    "name": "Angola",
+    "shortName": "AO",
+    "isEU": false,
+    "population": 32866272,
+    "roseOilInLitres": 0,
+    "averageIntellect": 72.5
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "shortName": "AG",
+    "isEU": false,
+    "population": 97929,
+    "roseOilInLitres": 0,
+    "averageIntellect": 81.5
+  },
+  {
+    "name": "Argentina",
+    "shortName": "AR",
+    "isEU": false,
+    "population": 45195774,
+    "roseOilInLitres": 0,
+    "averageIntellect": 93.5
+  },
+  {
+    "name": "Armenia",
+    "shortName": "AM",
+    "isEU": false,
+    "population": 2963243,
+    "roseOilInLitres": 0,
+    "averageIntellect": 94.5
+  },
+  {
+    "name": "Australia",
+    "shortName": "AU",
+    "isEU": false,
+    "population": 25499884,
+    "roseOilInLitres": 0.003,
+    "averageIntellect": 101.654
+  },
+  {
+    "name": "Austria",
+    "shortName": "AT",
+    "isEU": true,
+    "population": 9006398,
+    "roseOilInLitres": 0,
+    "averageIntellect": 103.5
+  },
+  {
+    "name": "Azerbaijan",
+    "shortName": "AZ",
+    "isEU": false,
+    "population": 10139177,
+    "roseOilInLitres": 0,
+    "averageIntellect": 87.5
+  },
+  {
+    "name": "Bahamas",
+    "shortName": "BS",
+    "isEU": false,
+    "population": 393244,
+    "roseOilInLitres": 0,
+    "averageIntellect": 84.5
+  },
+  {
+    "name": "Bahrain",
+    "shortName": "BH",
+    "isEU": false,
+    "population": 1701575,
+    "roseOilInLitres": 0,
+    "averageIntellect": 92.5
+  },
+  {
+    "name": "Bangladesh",
+    "shortName": "BD",
+    "isEU": false,
+    "population": 164689383,
+    "roseOilInLitres": 0,
+    "averageIntellect": 82.5
+  },
+  {
+    "name": "Barbados",
+    "shortName": "BB",
+    "isEU": false,
+    "population": 287375,
+    "roseOilInLitres": 0,
+    "averageIntellect": 95.5
+  },
+  {
+    "name": "Belarus",
+    "shortName": "BY",
+    "isEU": false,
+    "population": 9449323,
+    "roseOilInLitres": 0,
+    "averageIntellect": 97.5
+  },
+  {
+    "name": "Belgium",
+    "shortName": "BE",
+    "isEU": true,
+    "population": 11589623,
+    "roseOilInLitres": 0,
+    "averageIntellect": 103.5
+  },
+  {
+    "name": "Belize",
+    "shortName": "BZ",
+    "isEU": false,
+    "population": 397628,
+    "roseOilInLitres": 0,
+    "averageIntellect": 88.5
+  },
+  {
+    "name": "Benin",
+    "shortName": "BJ",
+    "isEU": false,
+    "population": 12123200,
+    "roseOilInLitres": 0,
+    "averageIntellect": 69.5
+  },
+  {
+    "name": "Bhutan",
+    "shortName": "BT",
+    "isEU": false,
+    "population": 771608,
+    "roseOilInLitres": 0,
+    "averageIntellect": 78.5
+  },
+  {
+    "name": "Bolivia",
+    "shortName": "BO",
+    "isEU": false,
+    "population": 11673021,
+    "roseOilInLitres": 0,
+    "averageIntellect": 83.5
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "shortName": "BA",
+    "isEU": false,
+    "population": 3280819,
+    "roseOilInLitres": 0,
+    "averageIntellect": 93.5
+  },
+  {
+    "name": "Botswana",
+    "shortName": "BW",
+    "isEU": false,
+    "population": 2351627,
+    "roseOilInLitres": 0,
+    "averageIntellect": 85.5
+  },
+  {
+    "name": "Brazil",
+    "shortName": "BR",
+    "isEU": false,
+    "population": 212559417,
+    "roseOilInLitres": 0,
+    "averageIntellect": 87.5
+  },
+  {
+    "name": "Brunei",
+    "shortName": "BN",
+    "isEU": false,
+    "population": 437479,
+    "roseOilInLitres": 0,
+    "averageIntellect": 102.5
+  },
+  {
+    "name": "Bulgaria",
+    "shortName": "BG",
+    "isEU": true,
+    "population": 7000002,
+    "roseOilInLitres": 7.21773,
+    "averageIntellect": 138.1024
+  },
+  {
+    "name": "Burkina Faso",
+    "shortName": "BF",
+    "isEU": false,
+    "population": 20903273,
+    "roseOilInLitres": 0,
+    "averageIntellect": 68.5
+  },
+  {
+    "name": "Burundi",
+    "shortName": "BI",
+    "isEU": false,
+    "population": 11890784,
+    "roseOilInLitres": 0,
+    "averageIntellect": 67.5
+  },
+  {
+    "name": "Cabo Verde",
+    "shortName": "CV",
+    "isEU": false,
+    "population": 555987,
+    "roseOilInLitres": 0,
+    "averageIntellect": 88.5
+  },
+  {
+    "name": "Cambodia",
+    "shortName": "KH",
+    "isEU": false,
+    "population": 16718965,
+    "roseOilInLitres": 0,
+    "averageIntellect": 81.5
+  },
+  {
+    "name": "Cameroon",
+    "shortName": "CM",
+    "isEU": false,
+    "population": 26545863,
+    "roseOilInLitres": 0,
+    "averageIntellect": 74.5
+  },
+  {
+    "name": "Canada",
+    "shortName": "CA",
+    "isEU": false,
+    "population": 37742154,
+    "roseOilInLitres": 0.006,
+    "averageIntellect": 102.487
+  },
+  {
+    "name": "Central African Republic",
+    "shortName": "CF",
+    "isEU": false,
+    "population": 4829767,
+    "roseOilInLitres": 0,
+    "averageIntellect": 65.5
+  },
+  {
+    "name": "Chad",
+    "shortName": "TD",
+    "isEU": false,
+    "population": 16425864,
+    "roseOilInLitres": 0,
+    "averageIntellect": 65.5
+  },
+  {
+    "name": "Chile",
+    "shortName": "CL",
+    "isEU": false,
+    "population": 19116201,
+    "roseOilInLitres": 0,
+    "averageIntellect": 95.5
+  },
+  {
+    "name": "China",
+    "shortName": "CN",
+    "isEU": false,
+    "population": 1439323776,
+    "roseOilInLitres": 0,
+    "averageIntellect": 105.5
+  },
+  {
+    "name": "Colombia",
+    "shortName": "CO",
+    "isEU": false,
+    "population": 50882891,
+    "roseOilInLitres": 0,
+    "averageIntellect": 89.5
+  },
+  {
+    "name": "Comoros",
+    "shortName": "KM",
+    "isEU": false,
+    "population": 869601,
+    "roseOilInLitres": 0,
+    "averageIntellect": 77.5
+  },
+  {
+    "name": "Congo, Democratic Republic of the",
+    "shortName": "CD",
+    "isEU": false,
+    "population": 89561403,
+    "roseOilInLitres": 0,
+    "averageIntellect": 68.5
+  },
+  {
+    "name": "Congo, Republic of the",
+    "shortName": "CG",
+    "isEU": false,
+    "population": 5518087,
+    "roseOilInLitres": 0,
+    "averageIntellect": 70.5
+  },
+  {
+    "name": "Costa Rica",
+    "shortName": "CR",
+    "isEU": false,
+    "population": 5094118,
+    "roseOilInLitres": 0,
+    "averageIntellect": 96.5
+  },
+  {
+    "name": "Croatia",
+    "shortName": "HR",
+    "isEU": true,
+    "population": 4105267,
+    "roseOilInLitres": 0,
+    "averageIntellect": 101.5
+  },
+  {
+    "name": "Cuba",
+    "shortName": "CU",
+    "isEU": false,
+    "population": 11326616,
+    "roseOilInLitres": 0,
+    "averageIntellect": 94.5
+  },
+  {
+    "name": "Cyprus",
+    "shortName": "CY",
+    "isEU": true,
+    "population": 1207359,
+    "roseOilInLitres": 0,
+    "averageIntellect": 102.5
+  },
+  {
+    "name": "Czech Republic",
+    "shortName": "CZ",
+    "isEU": true,
+    "population": 10708981,
+    "roseOilInLitres": 0,
+    "averageIntellect": 102.5
+  },
+  {
+    "name": "Denmark",
+    "shortName": "DK",
+    "isEU": true,
+    "population": 5831404,
+    "roseOilInLitres": 0,
+    "averageIntellect": 104.5
+  },
+  {
+    "name": "Djibouti",
+    "shortName": "DJ",
+    "isEU": false,
+    "population": 988000,
+    "roseOilInLitres": 0,
+    "averageIntellect": 74.5
+  },
+  {
+    "name": "Dominica",
+    "shortName": "DM",
+    "isEU": false,
+    "population": 71991,
+    "roseOilInLitres": 0,
+    "averageIntellect": 89.5
+  },
+  {
+    "name": "Dominican Republic",
+    "shortName": "DO",
+    "isEU": false,
+    "population": 10847910,
+    "roseOilInLitres": 0,
+    "averageIntellect": 84.5
+  },
+  {
+    "name": "Ecuador",
+    "shortName": "EC",
+    "isEU": false,
+    "population": 17643054,
+    "roseOilInLitres": 0,
+    "averageIntellect": 85.5
+  },
+  {
+    "name": "Egypt",
+    "shortName": "EG",
+    "isEU": false,
+    "population": 102334404,
+    "roseOilInLitres": 0,
+    "averageIntellect": 86.5
+  },
+  {
+    "name": "El Salvador",
+    "shortName": "SV",
+    "isEU": false,
+    "population": 6486201,
+    "roseOilInLitres": 0,
+    "averageIntellect": 88.5
+  },
+  {
+    "name": "Equatorial Guinea",
+    "shortName": "GQ",
+    "isEU": false,
+    "population": 1402985,
+    "roseOilInLitres": 0,
+    "averageIntellect": 72.5
+  },
+  {
+    "name": "Eritrea",
+    "shortName": "ER",
+    "isEU": false,
+    "population": 3546421,
+    "roseOilInLitres": 0,
+    "averageIntellect": 68.5
+  },
+  {
+    "name": "Estonia",
+    "shortName": "EE",
+    "isEU": true,
+    "population": 1326535,
+    "roseOilInLitres": 0,
+    "averageIntellect": 104.5
+  },
+  {
+    "name": "Eswatini",
+    "shortName": "SZ",
+    "isEU": false,
+    "population": 1160164,
+    "roseOilInLitres": 0,
+    "averageIntellect": 72.5
+  },
+  {
+    "name": "Ethiopia",
+    "shortName": "ET",
+    "isEU": false,
+    "population": 114963588,
+    "roseOilInLitres": 0,
+    "averageIntellect": 70.5
+  },
+  {
+    "name": "Fiji",
+    "shortName": "FJ",
+    "isEU": false,
+    "population": 896445,
+    "roseOilInLitres": 0,
+    "averageIntellect": 84.5
+  },
+  {
+    "name": "Finland",
+    "shortName": "FI",
+    "isEU": true,
+    "population": 5540720,
+    "roseOilInLitres": 0,
+    "averageIntellect": 106.5
+  },
+  {
+    "name": "France",
+    "shortName": "FR",
+    "isEU": true,
+    "population": 65273511,
+    "roseOilInLitres": 0.017,
+    "averageIntellect": 105.984
+  },
+  {
+    "name": "Gabon",
+    "shortName": "GA",
+    "isEU": false,
+    "population": 2225734,
+    "roseOilInLitres": 0,
+    "averageIntellect": 83.5
+  },
+  {
+    "name": "Gambia",
+    "shortName": "GM",
+    "isEU": false,
+    "population": 2416668,
+    "roseOilInLitres": 0,
+    "averageIntellect": 68.5
+  },
+  {
+    "name": "Georgia",
+    "shortName": "GE",
+    "isEU": false,
+    "population": 3989167,
+    "roseOilInLitres": 0,
+    "averageIntellect": 95.5
+  },
+  {
+    "name": "Germany",
+    "shortName": "DE",
+    "isEU": true,
+    "population": 83166711,
+    "roseOilInLitres": 0.021,
+    "averageIntellect": 108.214
+  },
+  {
+    "name": "Ghana",
+    "shortName": "GH",
+    "isEU": false,
+    "population": 31072940,
+    "roseOilInLitres": 0,
+    "averageIntellect": 74.5
+  },
+  {
+    "name": "Greece",
+    "shortName": "GR",
+    "isEU": true,
+    "population": 10423054,
+    "roseOilInLitres": 0,
+    "averageIntellect": 98.5
+  },
+  {
+    "name": "Grenada",
+    "shortName": "GD",
+    "isEU": false,
+    "population": 112523,
+    "roseOilInLitres": 0,
+    "averageIntellect": 90.5
+  },
+  {
+    "name": "Guatemala",
+    "shortName": "GT",
+    "isEU": false,
+    "population": 17915568,
+    "roseOilInLitres": 0,
+    "averageIntellect": 79.5
+  },
+  {
+    "name": "Guinea",
+    "shortName": "GN",
+    "isEU": false,
+    "population": 13132795,
+    "roseOilInLitres": 0,
+    "averageIntellect": 66.5
+  },
+  {
+    "name": "Guinea-Bissau",
+    "shortName": "GW",
+    "isEU": false,
+    "population": 1968001,
+    "roseOilInLitres": 0,
+    "averageIntellect": 67.5
+  },
+  {
+    "name": "Guyana",
+    "shortName": "GY",
+    "isEU": false,
+    "population": 786552,
+    "roseOilInLitres": 0,
+    "averageIntellect": 84.5
+  },
+  {
+    "name": "Haiti",
+    "shortName": "HT",
+    "isEU": false,
+    "population": 11402528,
+    "roseOilInLitres": 0,
+    "averageIntellect": 67.5
+  },
+  {
+    "name": "Honduras",
+    "shortName": "HN",
+    "isEU": false,
+    "population": 9904607,
+    "roseOilInLitres": 0,
+    "averageIntellect": 81.5
+  },
+  {
+    "name": "Hungary",
+    "shortName": "HU",
+    "isEU": true,
+    "population": 9660351,
+    "roseOilInLitres": 0,
+    "averageIntellect": 103.5
+  },
+  {
+    "name": "Iceland",
+    "shortName": "IS",
+    "isEU": false,
+    "population": 341243,
+    "roseOilInLitres": 0,
+    "averageIntellect": 101.5
+  },
+  {
+    "name": "India",
+    "shortName": "IN",
+    "isEU": false,
+    "population": 1380004385,
+    "roseOilInLitres": 0,
+    "averageIntellect": 87.5
+  },
+  {
+    "name": "Indonesia",
+    "shortName": "ID",
+    "isEU": false,
+    "population": 273523615,
+    "roseOilInLitres": 0,
+    "averageIntellect": 89.5
+  },
+  {
+    "name": "Iran",
+    "shortName": "IR",
+    "isEU": false,
+    "population": 83992949,
+    "roseOilInLitres": 0,
+    "averageIntellect": 84.5
+  },
+  {
+    "name": "Iraq",
+    "shortName": "IQ",
+    "isEU": false,
+    "population": 40222493,
+    "roseOilInLitres": 0,
+    "averageIntellect": 77.5
+  },
+  {
+    "name": "Ireland",
+    "shortName": "IE",
+    "isEU": true,
+    "population": 4937786,
+    "roseOilInLitres": 0,
+    "averageIntellect": 103.5
+  },
+  {
+    "name": "Israel",
+    "shortName": "IL",
+    "isEU": false,
+    "population": 8655535,
+    "roseOilInLitres": 0,
+    "averageIntellect": 101.5
+  },
+  {
+    "name": "Italy",
+    "shortName": "IT",
+    "isEU": true,
+    "population": 60461826,
+    "roseOilInLitres": 0.015,
+    "averageIntellect": 103.541
+  },
+  {
+    "name": "Jamaica",
+    "shortName": "JM",
+    "isEU": false,
+    "population": 2961167,
+    "roseOilInLitres": 0,
+    "averageIntellect": 86.5
+  },
+  {
+    "name": "Japan",
+    "shortName": "JP",
+    "isEU": false,
+    "population": 126476461,
+    "roseOilInLitres": 0.002,
+    "averageIntellect": 112.112
+  },
+  {
+    "name": "Jordan",
+    "shortName": "JO",
+    "isEU": false,
+    "population": 10203134,
+    "roseOilInLitres": 0,
+    "averageIntellect": 87.5
+  },
+  {
+    "name": "Kazakhstan",
+    "shortName": "KZ",
+    "isEU": false,
+    "population": 18776707,
+    "roseOilInLitres": 0,
+    "averageIntellect": 92.5
+  },
+  {
+    "name": "Kenya",
+    "shortName": "KE",
+    "isEU": false,
+    "population": 53771296,
+    "roseOilInLitres": 0,
+    "averageIntellect": 74.5
+  },
+  {
+    "name": "Kiribati",
+    "shortName": "KI",
+    "isEU": false,
+    "population": 119449,
+    "roseOilInLitres": 0,
+    "averageIntellect": 84.5
+  },
+  {
+    "name": "Kuwait",
+    "shortName": "KW",
+    "isEU": false,
+    "population": 4270571,
+    "roseOilInLitres": 0,
+    "averageIntellect": 96.5
+  },
+  {
+    "name": "Kyrgyzstan",
+    "shortName": "KG",
+    "isEU": false,
+    "population": 6524195,
+    "roseOilInLitres": 0,
+    "averageIntellect": 91.5
+  },
+  {
+    "name": "Laos",
+    "shortName": "LA",
+    "isEU": false,
+    "population": 7275560,
+    "roseOilInLitres": 0,
+    "averageIntellect": 82.5
+  },
+  {
+    "name": "Latvia",
+    "shortName": "LV",
+    "isEU": true,
+    "population": 1886198,
+    "roseOilInLitres": 0,
+    "averageIntellect": 103.5
+  },
+  {
+    "name": "Lebanon",
+    "shortName": "LB",
+    "isEU": false,
+    "population": 6825445,
+    "roseOilInLitres": 0,
+    "averageIntellect": 95.5
+  },
+  {
+    "name": "Lesotho",
+    "shortName": "LS",
+    "isEU": false,
+    "population": 2142249,
+    "roseOilInLitres": 0,
+    "averageIntellect": 70.5
+  },
+  {
+    "name": "Liberia",
+    "shortName": "LR",
+    "isEU": false,
+    "population": 5057681,
+    "roseOilInLitres": 0,
+    "averageIntellect": 66.5
+  },
+  {
+    "name": "Libya",
+    "shortName": "LY",
+    "isEU": false,
+    "population": 6871292,
+    "roseOilInLitres": 0,
+    "averageIntellect": 78.5
+  },
+  {
+    "name": "Liechtenstein",
+    "shortName": "LI",
+    "isEU": false,
+    "population": 38128,
+    "roseOilInLitres": 0,
+    "averageIntellect": 104.5
+  },
+  {
+    "name": "Lithuania",
+    "shortName": "LT",
+    "isEU": true,
+    "population": 2722289,
+    "roseOilInLitres": 0,
+    "averageIntellect": 103.5
+  },
+  {
+    "name": "Luxembourg",
+    "shortName": "LU",
+    "isEU": true,
+    "population": 634814,
+    "roseOilInLitres": 0,
+    "averageIntellect": 107.5
+  },
+  {
+    "name": "Madagascar",
+    "shortName": "MG",
+    "isEU": false,
+    "population": 27691018,
+    "roseOilInLitres": 0,
+    "averageIntellect": 70.5
+  },
+  {
+    "name": "Malawi",
+    "shortName": "MW",
+    "isEU": false,
+    "population": 19129952,
+    "roseOilInLitres": 0,
+    "averageIntellect": 68.5
+  },
+  {
+    "name": "Malaysia",
+    "shortName": "MY",
+    "isEU": false,
+    "population": 32365999,
+    "roseOilInLitres": 0,
+    "averageIntellect": 94.5
+  },
+  {
+    "name": "Maldives",
+    "shortName": "MV",
+    "isEU": false,
+    "population": 540544,
+    "roseOilInLitres": 0,
+    "averageIntellect": 88.5
+  },
+  {
+    "name": "Mali",
+    "shortName": "ML",
+    "isEU": false,
+    "population": 20250833,
+    "roseOilInLitres": 0,
+    "averageIntellect": 68.5
+  },
+  {
+    "name": "Malta",
+    "shortName": "MT",
+    "isEU": true,
+    "population": 514564,
+    "roseOilInLitres": 0,
+    "averageIntellect": 102.5
+  }
+]
+
+
